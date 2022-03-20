@@ -1,0 +1,157 @@
+:root {
+    --color-navbar : rgb(255, 255, 255);
+    --search-bar-color : rgb(241, 241, 241);
+    --full-body-color : rgb(241, 244, 247);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--full-body-color);
+}
+h4 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+span {
+    color: black;
+}
+.fl {
+    display: flex;
+}
+.col-fl {
+    flex-direction: column;
+}
+.navbar {
+    height: 56px;
+    width: 100%;
+}
+.navbar-style {
+    background-color: var(--color-navbar);
+    box-shadow: 0 .1px 10px -5px rgb(110, 110, 110);
+}
+.position-absolute {
+    position: absolute;
+}
+.position-relative {
+    position: relative;
+}
+.position-fixed {
+    position: fixed;
+}
+.navbar-inner1 {
+    justify-content: space-between;
+    width: 100%;
+}
+.left-holder {
+    width: 100%;
+}
+.icon-holder {
+    margin: 0 0 0 16px;
+    flex-direction: column;
+    justify-content: center;
+}
+.search-bar {
+    width: 240px;
+    height: 40px;
+    margin: 8px 0px;
+    border-radius: 50px;
+    background-color: var(--search-bar-color);
+    align-items: center;
+}
+.search-icon-area {
+    padding: 9px 0 10px 9px;
+}
+.search-icon {
+    width: 22px;
+    height: 22px;
+}
+.icon-size {
+    height: 25px;
+    width: 25px;
+}
+.middle-icon-holder {
+    width: 111.6px;
+    height: 56px;
+}
+.input-area {
+    width: 212px;
+    padding: 0 8px 0 6px;
+    background-color: var(--search-bar-color);
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: sans-serif;
+    border: none;
+}
+.input-area:focus {
+    outline: none;
+}
+.navbar-nbsp {
+    width: 8px;
+}
+.fb-icon {
+    height: 40px;
+    width: 40px;
+}
+.profile {
+    align-items: center;
+}
+.padding-navbar {
+    padding: 0 110px;
+}
+.margin-4-0-4-8 {
+    margin: 4px 0 4px 8px;
+}
+.middle-border {
+    height: 48px;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+.middle-border:hover {
+    background-color: rgb(221, 221, 221);
+}
+.profile-padding {
+    padding: 0 8px;
+    height: 36px;
+    border-radius: 50px;
+    transition: all 0.15s;
+}
+.profile-padding:hover {
+    background-color: rgb(247, 247, 247);
+}
+.profile-image {
+    height: 100%;
+}
+.icon-size-28 {
+    height: 28px;
+    width: 28px;
+}
+.profile-image img {
+    border-radius: 50px;
+}
+.image-gap {
+    margin-right: 8px;
+}
+.margin-left-8 {
+    margin-left: 8px;
+}
+.right-holder #rhold {
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+.right-icon-tray {
+    align-items: center;
+}
+.ico-holder {
+    justify-content: center;
+    align-items: center;
+}
+.size {
+    width: 40px;
+    height: 40px;
+    background-color: var(--search-bar-color);
+    border-radius: 50px;
+}
